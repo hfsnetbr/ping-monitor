@@ -5,7 +5,7 @@ An uptime event emitter for http and tcp servers.
 
 ### Installation
 ```
-npm install ping-monitor
+npm install --save @hfsnetbr/ping-monitor
 ```
 
 

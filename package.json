@@ -1,16 +1,16 @@
 {
-  "name": "ping-monitor",
+  "name": "@hfsnetbr/ping-monitor",
   "version": "0.5.1",
   "description": "Website Uptime Event Emitter",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "npm run eslint && ./node_modules/mocha/bin/mocha test",
-    "eslint": "./node_modules/.bin/eslint ./lib"
+    "eslint": "eslint ./lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hfsnetbr/node-monitor.git"
+    "url": "git+https://github.com/hfsnetbr/ping-monitor.git"
   },
   "keywords": [
     "monitor",
@@ -32,5 +32,13 @@
     "mocha": "^7.1.2",
     "nock": "^12.0.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/hfsnetbr/ping-monitor/issues"
+  },
+  "homepage": "https://github.com/hfsnetbr/ping-monitor#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
